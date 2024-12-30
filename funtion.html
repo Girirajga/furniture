@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <body>
+            
+            <script>
+                function sum(x, y) {
+                    return x + y;
+                }
+                
+                document.write(sum(17, 18));
+
+</script>
+
+<script>
+
+                let a = ["GH", "HGG", "JFGHJ", "LGHMGFBV", "ghf"];
+
+let a2 = a.map(function (s) {
+    return s.length;
+});
+
+console.log("Normal way ", a2); // [8, 6, 7, 9]
+
+let a3 = a.map((s) => s.length);
+
+console.log("Using Arrow Function ", a3); // [8, 6, 7, 9]
+
+            </script>
+        </body>
+    </head>
+</html>
